@@ -1,0 +1,19 @@
+docker build -t adhoc:nehapatidar https://github.com/redashu/summer2020dockertest.git
+
+docker tag adhoc:nehapatidar nehapatidar208/adhoc:nehapatidar
+
+docker login
+
+docker push nehapatidar208/adhoc:nehapatidar
+
+docker logout
+
+docker pull nehapatidar208/adhoc:nehapatidar
+
+#output of pulling the image
+
+nehapatidar: Pulling from nehapatidar208/adhoc
+Digest: sha256:a0f5a7204e8e6b002156903f5ea86dec2249fb637c87390743b44ab70e573053
+Status: Image is up to date for nehapatidar208/adhoc:nehapatidar
+docker.io/nehapatidar208/adhoc:nehapatidar
+
