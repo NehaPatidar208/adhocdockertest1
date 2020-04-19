@@ -22,4 +22,4 @@ docker tag nehapatidar:q4 nehapatidar208/nehapatidar:q4
 docker login
 
 # piushing the image
-docker push nehapatidar208/nehapatidar:q4
+docker push nehapatidar208/nehapatidar:q4 
