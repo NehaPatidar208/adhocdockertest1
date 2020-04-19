@@ -1,0 +1,25 @@
+#######Dockerfile#################
+FROM centos
+RUN yum install httpd -y
+
+ADD https://github.com/redashu/beginner-html-site-styled.git /var/www/html/
+EXPOSE 80
+ENTRYPOINT httpd -DFOREGROUND
+
+
+##################################
+# docker commands
+
+# to build image
+docker build -t nehapatidar:q4 https://github.com/NehaPatidar208/WebImage.git
+#to create container
+docker run -d --name nehapatidarc4q4 -p 2821:80 nehapatidar:q4
+
+
+# retaging the image name
+docker tag nehapatidar:q4 nehapatidar208/nehapatidar:q4
+
+docker login
+
+# piushing the image
+docker push nehapatidar208/nehapatidar:q4
