@@ -1,0 +1,5 @@
+docker tag alpine alpine:nehapatidar
+
+docker run --name nehapatidarc1q1 alpine:nehapatidar date +%T
+
+11:54:00
