@@ -1,0 +1,5 @@
+#######que5#########################
+
+docker volume create nehapatidarq5
+
+docker run -it --name nehapatidarc5q5 -v nehapatidarq5:/adhocvol alpine
