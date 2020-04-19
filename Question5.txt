@@ -3,3 +3,4 @@
 docker volume create nehapatidarq5
 
 docker run -it --name nehapatidarc5q5 -v nehapatidarq5:/adhocvol alpine
+docker run -it --name nehapatidarc5q50 -v nehapatidarq5:/user.txt alpine
