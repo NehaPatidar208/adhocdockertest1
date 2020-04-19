@@ -1,0 +1,13 @@
+ docker run -d --name nehapatidarc3q3 -p 3151:80 dockerashu/ckad:v2
+
+# 7 docker keywords are there
+
+
+#web output
+#Hello Green Docker
+#Hello Green Docker
+#Hello Green Docker
+#Hello Green Docker
+#Hello Green Docker
+#Hello Green Docker
+#Hello Green Docker
